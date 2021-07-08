@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-07T18:09:28.907Z",
+    "end": "2021-07-07T18:09:53.543Z",
+    "duration": 24636,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3161ac6e-4e4c-4a19-874d-e184cb76b69d",
+      "title": "",
+      "fullFile": "cypress/integration/first-testing/test_user_interface.js",
+      "file": "cypress/integration/first-testing/test_user_interface.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5493dad1-408d-42eb-b621-10e8f248a2f0",
+          "title": "interfaz de usuario",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "resultados",
+              "fullTitle": "interfaz de usuario resultados",
+              "timedOut": null,
+              "duration": 22926,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.mattelsa.net/');\ncy.get('.level0.first > .level-top > span').click();\ncy.get('.category-name-filters > span').contains('Hombre');\ncy.go('back');\ncy.get('.col2-image-left > a > .img-responsive').click();\ncy.get('.category-name-filters > span').contains('Hombre');\ncy.go('back');",
+              "err": {},
+              "uuid": "241817d0-8482-426f-8e04-d1075476ae37",
+              "parentUUID": "5493dad1-408d-42eb-b621-10e8f248a2f0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "241817d0-8482-426f-8e04-d1075476ae37"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 22926,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
